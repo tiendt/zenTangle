@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Meditation_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="cr8-A8-Wdb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuC-ky-BWv">
+                                <rect key="frame" x="32" y="28" width="310" height="55"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meditation Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWf-df-7SV">
+                                <rect key="frame" x="37" y="33" width="300" height="45"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.74901960779999999" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select a Meditation Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0J-HT-LSo">
+                                <rect key="frame" x="32" y="112" width="190" height="21"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fck-Jg-OZd">
+                                <rect key="frame" x="5" y="146" width="30" height="30"/>
+                                <state key="normal" image="15.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rAj-q3-me8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lg0-Cc-4lx">
+                                <rect key="frame" x="40" y="146" width="30" height="30"/>
+                                <state key="normal" image="20.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8M-DT-6KJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6L-46-tRk">
+                                <rect key="frame" x="78" y="146" width="30" height="30"/>
+                                <state key="normal" image="25.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m2h-67-OYt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJa-BA-THd">
+                                <rect key="frame" x="116" y="146" width="30" height="30"/>
+                                <state key="normal" image="30.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UGE-zl-vLf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="35" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjE-Rb-PTK">
+                                <rect key="frame" x="153" y="146" width="30" height="30"/>
+                                <state key="normal" image="35.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bHM-ZQ-AJU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nv2-zh-TBM">
+                                <rect key="frame" x="190" y="146" width="30" height="30"/>
+                                <state key="normal" image="40.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3su-jW-4l9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4n-BC-URu">
+                                <rect key="frame" x="229" y="146" width="30" height="30"/>
+                                <state key="normal" image="60.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x0r-G9-fan"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="70" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iD-RE-xfr">
+                                <rect key="frame" x="265" y="146" width="30" height="30"/>
+                                <state key="normal" image="70.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwL-GC-vrh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="80" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXz-rh-vJR">
+                                <rect key="frame" x="303" y="146" width="30" height="30"/>
+                                <state key="normal" image="80.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9JV-WT-jLB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="90" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFl-Az-Qwv">
+                                <rect key="frame" x="339" y="146" width="30" height="30"/>
+                                <state key="normal" image="90.png"/>
+                                <connections>
+                                    <action selector="timeSelectPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zd-SP-ffo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oY1-8a-87E">
+                                <rect key="frame" x="12" y="184" width="350" height="63"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uim-Qn-sD7">
+                                <rect key="frame" x="28" y="274" width="175" height="175"/>
+                                <state key="normal" title="Button" image="start.png"/>
+                                <connections>
+                                    <action selector="startPausePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H3r-Br-izt"/>
+                                    <action selector="startPauseShawdowTouchDownAction:" destination="BYZ-38-t0r" eventType="touchDown" id="CPV-S5-hKj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button15Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="dYt-sz-R5Z">
+                                <rect key="frame" x="152" y="281" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button20Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="mbJ-10-39U">
+                                <rect key="frame" x="188" y="322" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button25Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="coO-6x-eD3">
+                                <rect key="frame" x="183" y="385" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button30Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="xAl-Sa-orV">
+                                <rect key="frame" x="152" y="424" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button35Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fiq-nj-MeS">
+                                <rect key="frame" x="103" y="438" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button40Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="yxY-fX-Xss">
+                                <rect key="frame" x="53" y="424" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button60Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="CnF-ts-VJM">
+                                <rect key="frame" x="20" y="385" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button70Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sfx-FC-b4s">
+                                <rect key="frame" x="20" y="322" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button80Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yhl-Zv-Wbl">
+                                <rect key="frame" x="45" y="281" width="25" height="25"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button90Highlighted.png" translatesAutoresizingMaskIntoConstraints="NO" id="wnZ-ID-yb5">
+                                <rect key="frame" x="103" y="262" width="25" height="25"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGy-eA-NDF">
+                                <rect key="frame" x="12" y="479" width="60" height="35"/>
+                                <color key="backgroundColor" red="0.27058823529411763" green="0.792156862745098" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="18"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nwj-ql-QzC"/>
+                                    <action selector="resetTouchDownAction:" destination="BYZ-38-t0r" eventType="touchDown" id="VFa-xo-NQi"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bwr-6l-4HW">
+                                <rect key="frame" x="69" y="571" width="51" height="31"/>
+                                <color key="onTintColor" red="0.23137254900000001" green="0.74901960779999999" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.32156862745098042" green="0.30588235294117649" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="resetUpOrDownSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="NyE-ne-VxA"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Count Up or Down" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hW-PN-9f3">
+                                <rect key="frame" x="12" y="541" width="160" height="22"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DHd-ga-hrS">
+                                <rect key="frame" x="175" y="513" width="60" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ETv-5f-7tG">
+                                <rect key="frame" x="252" y="271" width="90" height="125"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TvN-lG-5k3">
+                                <rect key="frame" x="103" y="262" width="25" height="25"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button15" destination="fck-Jg-OZd" id="may-LL-ZXe"/>
+                        <outlet property="button15Highlighted" destination="dYt-sz-R5Z" id="JcR-OQ-sNq"/>
+                        <outlet property="button20" destination="lg0-Cc-4lx" id="wUd-ZN-Qat"/>
+                        <outlet property="button20Highlighted" destination="mbJ-10-39U" id="U0o-gD-FvZ"/>
+                        <outlet property="button25" destination="U6L-46-tRk" id="d2e-rQ-m6D"/>
+                        <outlet property="button25Highlighted" destination="coO-6x-eD3" id="toP-KB-fOf"/>
+                        <outlet property="button30" destination="HJa-BA-THd" id="Mcf-6E-ft8"/>
+                        <outlet property="button30Highlighted" destination="xAl-Sa-orV" id="Acx-KM-VrB"/>
+                        <outlet property="button35" destination="DjE-Rb-PTK" id="3d0-ZI-E7a"/>
+                        <outlet property="button35Highlighted" destination="Fiq-nj-MeS" id="2cs-Va-UIE"/>
+                        <outlet property="button40" destination="Nv2-zh-TBM" id="ffD-E5-vCI"/>
+                        <outlet property="button40Highlighted" destination="yxY-fX-Xss" id="aX1-FQ-DQJ"/>
+                        <outlet property="button60" destination="F4n-BC-URu" id="3NT-yf-hK1"/>
+                        <outlet property="button60Highlighted" destination="CnF-ts-VJM" id="vhA-nw-Lce"/>
+                        <outlet property="button70" destination="7iD-RE-xfr" id="bnX-40-fcr"/>
+                        <outlet property="button70Highlighted" destination="Sfx-FC-b4s" id="zG5-KY-mji"/>
+                        <outlet property="button80" destination="mXz-rh-vJR" id="0BF-Bs-LkP"/>
+                        <outlet property="button80Highlighted" destination="Yhl-Zv-Wbl" id="tCf-Zl-iOt"/>
+                        <outlet property="button90" destination="vFl-Az-Qwv" id="hzs-fq-Ubn"/>
+                        <outlet property="button90Highlighted" destination="wnZ-ID-yb5" id="kzI-0Y-VvU"/>
+                        <outlet property="countUpOrDownSwitch" destination="Bwr-6l-4HW" id="0y5-um-Ll6"/>
+                        <outlet property="heartBeadImageView" destination="ETv-5f-7tG" id="yoQ-Ay-k30"/>
+                        <outlet property="incenseImageView" destination="DHd-ga-hrS" id="Q71-l1-KtE"/>
+                        <outlet property="resetButton" destination="bGy-eA-NDF" id="rSm-Q0-9Vi"/>
+                        <outlet property="startPauseOutlet" destination="Uim-Qn-sD7" id="Ry5-FF-Z8f"/>
+                        <outlet property="timeDisplayLabel" destination="oY1-8a-87E" id="KFb-aQ-Twx"/>
+                        <outlet property="upOrDownSwitch" destination="Bwr-6l-4HW" id="hpr-I9-hU7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87.5" y="183.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="15.png" width="25" height="21"/>
+        <image name="20.png" width="27" height="21"/>
+        <image name="25.png" width="26" height="21"/>
+        <image name="30.png" width="27" height="21"/>
+        <image name="35.png" width="27" height="21"/>
+        <image name="40.png" width="28" height="21"/>
+        <image name="60.png" width="28" height="21"/>
+        <image name="70.png" width="27" height="21"/>
+        <image name="80.png" width="27" height="21"/>
+        <image name="90.png" width="28" height="21"/>
+        <image name="bg.png" width="750" height="1334"/>
+        <image name="button15Highlighted.png" width="54" height="54"/>
+        <image name="button20Highlighted.png" width="54" height="54"/>
+        <image name="button25Highlighted.png" width="54" height="54"/>
+        <image name="button30Highlighted.png" width="54" height="54"/>
+        <image name="button35Highlighted.png" width="54" height="54"/>
+        <image name="button40Highlighted.png" width="54" height="54"/>
+        <image name="button60Highlighted.png" width="54" height="54"/>
+        <image name="button70Highlighted.png" width="54" height="54"/>
+        <image name="button80Highlighted.png" width="54" height="54"/>
+        <image name="button90Highlighted.png" width="54" height="54"/>
+        <image name="start.png" width="300" height="300"/>
+    </resources>
+</document>

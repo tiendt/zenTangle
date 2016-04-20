@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B47DEADC1B79458100DDE58F /* gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B47DEADB1B79458100DDE58F /* gong.mp3 */; };
+		B4D7A5401B77A37900FC036B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7A53F1B77A37900FC036B /* AppDelegate.swift */; };
+		B4D7A5421B77A37900FC036B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7A5411B77A37900FC036B /* ViewController.swift */; };
+		B4D7A5451B77A37900FC036B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5431B77A37900FC036B /* Main.storyboard */; };
+		B4D7A5471B77A37900FC036B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5461B77A37900FC036B /* Assets.xcassets */; };
+		B4D7A54A1B77A37900FC036B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5481B77A37900FC036B /* LaunchScreen.storyboard */; };
+		B4D7A5551B77A37900FC036B /* Meditation_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7A5541B77A37900FC036B /* Meditation_TimerTests.swift */; };
+		B4D7A5601B77A37900FC036B /* Meditation_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7A55F1B77A37900FC036B /* Meditation_TimerUITests.swift */; };
+		B4D7A5891B77A4D300FC036B /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A56D1B77A4D300FC036B /* 15.png */; };
+		B4D7A58A1B77A4D300FC036B /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A56E1B77A4D300FC036B /* 20.png */; };
+		B4D7A58B1B77A4D300FC036B /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A56F1B77A4D300FC036B /* 25.png */; };
+		B4D7A58C1B77A4D300FC036B /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5701B77A4D300FC036B /* 30.png */; };
+		B4D7A58D1B77A4D300FC036B /* 35.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5711B77A4D300FC036B /* 35.png */; };
+		B4D7A58E1B77A4D300FC036B /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5721B77A4D300FC036B /* 40.png */; };
+		B4D7A58F1B77A4D300FC036B /* 45.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5731B77A4D300FC036B /* 45.png */; };
+		B4D7A5901B77A4D300FC036B /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5741B77A4D300FC036B /* 60.png */; };
+		B4D7A5911B77A4D300FC036B /* 70.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5751B77A4D300FC036B /* 70.png */; };
+		B4D7A5921B77A4D300FC036B /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5761B77A4D300FC036B /* 80.png */; };
+		B4D7A5931B77A4D300FC036B /* 90.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5771B77A4D300FC036B /* 90.png */; };
+		B4D7A5941B77A4D300FC036B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5781B77A4D300FC036B /* bg.png */; };
+		B4D7A59F1B77A4D300FC036B /* Meditation Timer.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5831B77A4D300FC036B /* Meditation Timer.png */; };
+		B4D7A5A01B77A4D300FC036B /* Oval 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5841B77A4D300FC036B /* Oval 3.png */; };
+		B4D7A5A11B77A4D300FC036B /* oval.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5851B77A4D300FC036B /* oval.png */; };
+		B4D7A5A21B77A4D300FC036B /* PAUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5861B77A4D300FC036B /* PAUSE.png */; };
+		B4D7A5A31B77A4D300FC036B /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5871B77A4D300FC036B /* pauseButton.png */; };
+		B4D7A5A41B77A4D300FC036B /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5881B77A4D300FC036B /* start.png */; };
+		B4D7A5C01B77ABA700FC036B /* button15Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5B61B77ABA700FC036B /* button15Highlighted.png */; };
+		B4D7A5C11B77ABA700FC036B /* button20Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5B71B77ABA700FC036B /* button20Highlighted.png */; };
+		B4D7A5C21B77ABA700FC036B /* button25Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5B81B77ABA700FC036B /* button25Highlighted.png */; };
+		B4D7A5C31B77ABA700FC036B /* button30Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5B91B77ABA700FC036B /* button30Highlighted.png */; };
+		B4D7A5C41B77ABA700FC036B /* button35Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5BA1B77ABA700FC036B /* button35Highlighted.png */; };
+		B4D7A5C51B77ABA700FC036B /* button40Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5BB1B77ABA700FC036B /* button40Highlighted.png */; };
+		B4D7A5C61B77ABA700FC036B /* button60Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5BC1B77ABA700FC036B /* button60Highlighted.png */; };
+		B4D7A5C71B77ABA700FC036B /* button70Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5BD1B77ABA700FC036B /* button70Highlighted.png */; };
+		B4D7A5C81B77ABA700FC036B /* button80Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5BE1B77ABA700FC036B /* button80Highlighted.png */; };
+		B4D7A5C91B77ABA700FC036B /* button90Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5BF1B77ABA700FC036B /* button90Highlighted.png */; };
+		B4D7A5E51B77DB5C00FC036B /* heartBead1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5CA1B77DB5C00FC036B /* heartBead1.png */; };
+		B4D7A5E61B77DB5C00FC036B /* heartBead2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5CB1B77DB5C00FC036B /* heartBead2.png */; };
+		B4D7A5E71B77DB5C00FC036B /* heartBead3.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5CC1B77DB5C00FC036B /* heartBead3.png */; };
+		B4D7A5E81B77DB5C00FC036B /* heartBead4.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5CD1B77DB5C00FC036B /* heartBead4.png */; };
+		B4D7A5E91B77DB5C00FC036B /* heartBead5.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5CE1B77DB5C00FC036B /* heartBead5.png */; };
+		B4D7A5EA1B77DB5C00FC036B /* heartBead6.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5CF1B77DB5C00FC036B /* heartBead6.png */; };
+		B4D7A5EB1B77DB5C00FC036B /* heartBead7.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D01B77DB5C00FC036B /* heartBead7.png */; };
+		B4D7A5EC1B77DB5C00FC036B /* heartBead8.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D11B77DB5C00FC036B /* heartBead8.png */; };
+		B4D7A5ED1B77DB5C00FC036B /* heartBead9.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D21B77DB5C00FC036B /* heartBead9.png */; };
+		B4D7A5EE1B77DB5C00FC036B /* heartBead10.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D31B77DB5C00FC036B /* heartBead10.png */; };
+		B4D7A5EF1B77DB5C00FC036B /* heartBead11.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D41B77DB5C00FC036B /* heartBead11.png */; };
+		B4D7A5F01B77DB5C00FC036B /* heartBead12.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D51B77DB5C00FC036B /* heartBead12.png */; };
+		B4D7A5F11B77DB5C00FC036B /* heartBead13.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D61B77DB5C00FC036B /* heartBead13.png */; };
+		B4D7A5F21B77DB5C00FC036B /* heartBead14.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D71B77DB5C00FC036B /* heartBead14.png */; };
+		B4D7A5F31B77DB5C00FC036B /* heartBead15.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D81B77DB5C00FC036B /* heartBead15.png */; };
+		B4D7A5F41B77DB5C00FC036B /* heartBead16.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5D91B77DB5C00FC036B /* heartBead16.png */; };
+		B4D7A5F51B77DB5C00FC036B /* heartBead17.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5DA1B77DB5C00FC036B /* heartBead17.png */; };
+		B4D7A5F61B77DB5C00FC036B /* heartBead18.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5DB1B77DB5C00FC036B /* heartBead18.png */; };
+		B4D7A5F71B77DB5C00FC036B /* heartBead19.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5DC1B77DB5C00FC036B /* heartBead19.png */; };
+		B4D7A5F81B77DB5C00FC036B /* heartBead20.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5DD1B77DB5C00FC036B /* heartBead20.png */; };
+		B4D7A5F91B77DB5C00FC036B /* heartBead21.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5DE1B77DB5C00FC036B /* heartBead21.png */; };
+		B4D7A5FA1B77DB5C00FC036B /* heartBead22.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5DF1B77DB5C00FC036B /* heartBead22.png */; };
+		B4D7A5FB1B77DB5C00FC036B /* heartBead23.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5E01B77DB5C00FC036B /* heartBead23.png */; };
+		B4D7A5FC1B77DB5C00FC036B /* heartBead24.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5E11B77DB5C00FC036B /* heartBead24.png */; };
+		B4D7A5FD1B77DB5C00FC036B /* heartBead25.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5E21B77DB5C00FC036B /* heartBead25.png */; };
+		B4D7A5FE1B77DB5C00FC036B /* heartBead26.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5E31B77DB5C00FC036B /* heartBead26.png */; };
+		B4D7A5FF1B77DB5C00FC036B /* heartBead27.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A5E41B77DB5C00FC036B /* heartBead27.png */; };
+		B4D7A6081B77DB7600FC036B /* incenseStick1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6001B77DB7600FC036B /* incenseStick1.png */; };
+		B4D7A6091B77DB7600FC036B /* incenseStick2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6011B77DB7600FC036B /* incenseStick2.png */; };
+		B4D7A60A1B77DB7600FC036B /* incenseStick3.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6021B77DB7600FC036B /* incenseStick3.png */; };
+		B4D7A60B1B77DB7600FC036B /* incenseStick4.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6031B77DB7600FC036B /* incenseStick4.png */; };
+		B4D7A60C1B77DB7600FC036B /* incenseStick5.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6041B77DB7600FC036B /* incenseStick5.png */; };
+		B4D7A60D1B77DB7600FC036B /* incenseStick6.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6051B77DB7600FC036B /* incenseStick6.png */; };
+		B4D7A60E1B77DB7600FC036B /* incenseStick7.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6061B77DB7600FC036B /* incenseStick7.png */; };
+		B4D7A60F1B77DB7600FC036B /* incenseStick8.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D7A6071B77DB7600FC036B /* incenseStick8.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4D7A5511B77A37900FC036B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4D7A5341B77A37900FC036B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D7A53B1B77A37900FC036B;
+			remoteInfo = "Meditation Timer";
+		};
+		B4D7A55C1B77A37900FC036B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4D7A5341B77A37900FC036B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D7A53B1B77A37900FC036B;
+			remoteInfo = "Meditation Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B47DEADB1B79458100DDE58F /* gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gong.mp3; sourceTree = "<group>"; };
+		B4D7A53C1B77A37900FC036B /* Meditation Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditation Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D7A53F1B77A37900FC036B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4D7A5411B77A37900FC036B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4D7A5441B77A37900FC036B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4D7A5461B77A37900FC036B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4D7A5491B77A37900FC036B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4D7A54B1B77A37900FC036B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D7A5501B77A37900FC036B /* Meditation TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D7A5541B77A37900FC036B /* Meditation_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_TimerTests.swift; sourceTree = "<group>"; };
+		B4D7A5561B77A37900FC036B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D7A55B1B77A37900FC036B /* Meditation TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D7A55F1B77A37900FC036B /* Meditation_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_TimerUITests.swift; sourceTree = "<group>"; };
+		B4D7A5611B77A37900FC036B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D7A56D1B77A4D300FC036B /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		B4D7A56E1B77A4D300FC036B /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		B4D7A56F1B77A4D300FC036B /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		B4D7A5701B77A4D300FC036B /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		B4D7A5711B77A4D300FC036B /* 35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35.png; sourceTree = "<group>"; };
+		B4D7A5721B77A4D300FC036B /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		B4D7A5731B77A4D300FC036B /* 45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 45.png; sourceTree = "<group>"; };
+		B4D7A5741B77A4D300FC036B /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		B4D7A5751B77A4D300FC036B /* 70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 70.png; sourceTree = "<group>"; };
+		B4D7A5761B77A4D300FC036B /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		B4D7A5771B77A4D300FC036B /* 90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 90.png; sourceTree = "<group>"; };
+		B4D7A5781B77A4D300FC036B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		B4D7A5831B77A4D300FC036B /* Meditation Timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meditation Timer.png"; sourceTree = "<group>"; };
+		B4D7A5841B77A4D300FC036B /* Oval 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 3.png"; sourceTree = "<group>"; };
+		B4D7A5851B77A4D300FC036B /* oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oval.png; sourceTree = "<group>"; };
+		B4D7A5861B77A4D300FC036B /* PAUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PAUSE.png; sourceTree = "<group>"; };
+		B4D7A5871B77A4D300FC036B /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		B4D7A5881B77A4D300FC036B /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		B4D7A5B61B77ABA700FC036B /* button15Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button15Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5B71B77ABA700FC036B /* button20Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button20Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5B81B77ABA700FC036B /* button25Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button25Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5B91B77ABA700FC036B /* button30Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button30Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5BA1B77ABA700FC036B /* button35Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button35Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5BB1B77ABA700FC036B /* button40Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button40Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5BC1B77ABA700FC036B /* button60Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button60Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5BD1B77ABA700FC036B /* button70Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button70Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5BE1B77ABA700FC036B /* button80Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button80Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5BF1B77ABA700FC036B /* button90Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button90Highlighted.png; sourceTree = "<group>"; };
+		B4D7A5CA1B77DB5C00FC036B /* heartBead1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead1.png; sourceTree = "<group>"; };
+		B4D7A5CB1B77DB5C00FC036B /* heartBead2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead2.png; sourceTree = "<group>"; };
+		B4D7A5CC1B77DB5C00FC036B /* heartBead3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead3.png; sourceTree = "<group>"; };
+		B4D7A5CD1B77DB5C00FC036B /* heartBead4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead4.png; sourceTree = "<group>"; };
+		B4D7A5CE1B77DB5C00FC036B /* heartBead5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead5.png; sourceTree = "<group>"; };
+		B4D7A5CF1B77DB5C00FC036B /* heartBead6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead6.png; sourceTree = "<group>"; };
+		B4D7A5D01B77DB5C00FC036B /* heartBead7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead7.png; sourceTree = "<group>"; };
+		B4D7A5D11B77DB5C00FC036B /* heartBead8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead8.png; sourceTree = "<group>"; };
+		B4D7A5D21B77DB5C00FC036B /* heartBead9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead9.png; sourceTree = "<group>"; };
+		B4D7A5D31B77DB5C00FC036B /* heartBead10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead10.png; sourceTree = "<group>"; };
+		B4D7A5D41B77DB5C00FC036B /* heartBead11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead11.png; sourceTree = "<group>"; };
+		B4D7A5D51B77DB5C00FC036B /* heartBead12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead12.png; sourceTree = "<group>"; };
+		B4D7A5D61B77DB5C00FC036B /* heartBead13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead13.png; sourceTree = "<group>"; };
+		B4D7A5D71B77DB5C00FC036B /* heartBead14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead14.png; sourceTree = "<group>"; };
+		B4D7A5D81B77DB5C00FC036B /* heartBead15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead15.png; sourceTree = "<group>"; };
+		B4D7A5D91B77DB5C00FC036B /* heartBead16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead16.png; sourceTree = "<group>"; };
+		B4D7A5DA1B77DB5C00FC036B /* heartBead17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead17.png; sourceTree = "<group>"; };
+		B4D7A5DB1B77DB5C00FC036B /* heartBead18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead18.png; sourceTree = "<group>"; };
+		B4D7A5DC1B77DB5C00FC036B /* heartBead19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead19.png; sourceTree = "<group>"; };
+		B4D7A5DD1B77DB5C00FC036B /* heartBead20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead20.png; sourceTree = "<group>"; };
+		B4D7A5DE1B77DB5C00FC036B /* heartBead21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead21.png; sourceTree = "<group>"; };
+		B4D7A5DF1B77DB5C00FC036B /* heartBead22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead22.png; sourceTree = "<group>"; };
+		B4D7A5E01B77DB5C00FC036B /* heartBead23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead23.png; sourceTree = "<group>"; };
+		B4D7A5E11B77DB5C00FC036B /* heartBead24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead24.png; sourceTree = "<group>"; };
+		B4D7A5E21B77DB5C00FC036B /* heartBead25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead25.png; sourceTree = "<group>"; };
+		B4D7A5E31B77DB5C00FC036B /* heartBead26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead26.png; sourceTree = "<group>"; };
+		B4D7A5E41B77DB5C00FC036B /* heartBead27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartBead27.png; sourceTree = "<group>"; };
+		B4D7A6001B77DB7600FC036B /* incenseStick1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick1.png; sourceTree = "<group>"; };
+		B4D7A6011B77DB7600FC036B /* incenseStick2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick2.png; sourceTree = "<group>"; };
+		B4D7A6021B77DB7600FC036B /* incenseStick3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick3.png; sourceTree = "<group>"; };
+		B4D7A6031B77DB7600FC036B /* incenseStick4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick4.png; sourceTree = "<group>"; };
+		B4D7A6041B77DB7600FC036B /* incenseStick5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick5.png; sourceTree = "<group>"; };
+		B4D7A6051B77DB7600FC036B /* incenseStick6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick6.png; sourceTree = "<group>"; };
+		B4D7A6061B77DB7600FC036B /* incenseStick7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick7.png; sourceTree = "<group>"; };
+		B4D7A6071B77DB7600FC036B /* incenseStick8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incenseStick8.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4D7A5391B77A37900FC036B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D7A54D1B77A37900FC036B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D7A5581B77A37900FC036B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4D7A5331B77A37900FC036B = {
+			isa = PBXGroup;
+			children = (
+				B4D7A53E1B77A37900FC036B /* Meditation Timer */,
+				B4D7A5531B77A37900FC036B /* Meditation TimerTests */,
+				B4D7A55E1B77A37900FC036B /* Meditation TimerUITests */,
+				B4D7A53D1B77A37900FC036B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4D7A53D1B77A37900FC036B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7A53C1B77A37900FC036B /* Meditation Timer.app */,
+				B4D7A5501B77A37900FC036B /* Meditation TimerTests.xctest */,
+				B4D7A55B1B77A37900FC036B /* Meditation TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D7A53E1B77A37900FC036B /* Meditation Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7A53F1B77A37900FC036B /* AppDelegate.swift */,
+				B4D7A5411B77A37900FC036B /* ViewController.swift */,
+				B4D7A5431B77A37900FC036B /* Main.storyboard */,
+				B4D7A5A51B77A52200FC036B /* Images */,
+				B4D7A5461B77A37900FC036B /* Assets.xcassets */,
+				B4D7A5481B77A37900FC036B /* LaunchScreen.storyboard */,
+				B4D7A54B1B77A37900FC036B /* Info.plist */,
+			);
+			path = "Meditation Timer";
+			sourceTree = "<group>";
+		};
+		B4D7A5531B77A37900FC036B /* Meditation TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7A5541B77A37900FC036B /* Meditation_TimerTests.swift */,
+				B4D7A5561B77A37900FC036B /* Info.plist */,
+			);
+			path = "Meditation TimerTests";
+			sourceTree = "<group>";
+		};
+		B4D7A55E1B77A37900FC036B /* Meditation TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7A55F1B77A37900FC036B /* Meditation_TimerUITests.swift */,
+				B4D7A5611B77A37900FC036B /* Info.plist */,
+			);
+			path = "Meditation TimerUITests";
+			sourceTree = "<group>";
+		};
+		B4D7A5A51B77A52200FC036B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B47DEADB1B79458100DDE58F /* gong.mp3 */,
+				B4D7A6001B77DB7600FC036B /* incenseStick1.png */,
+				B4D7A6011B77DB7600FC036B /* incenseStick2.png */,
+				B4D7A6021B77DB7600FC036B /* incenseStick3.png */,
+				B4D7A6031B77DB7600FC036B /* incenseStick4.png */,
+				B4D7A6041B77DB7600FC036B /* incenseStick5.png */,
+				B4D7A6051B77DB7600FC036B /* incenseStick6.png */,
+				B4D7A6061B77DB7600FC036B /* incenseStick7.png */,
+				B4D7A6071B77DB7600FC036B /* incenseStick8.png */,
+				B4D7A5CA1B77DB5C00FC036B /* heartBead1.png */,
+				B4D7A5CB1B77DB5C00FC036B /* heartBead2.png */,
+				B4D7A5CC1B77DB5C00FC036B /* heartBead3.png */,
+				B4D7A5CD1B77DB5C00FC036B /* heartBead4.png */,
+				B4D7A5CE1B77DB5C00FC036B /* heartBead5.png */,
+				B4D7A5CF1B77DB5C00FC036B /* heartBead6.png */,
+				B4D7A5D01B77DB5C00FC036B /* heartBead7.png */,
+				B4D7A5D11B77DB5C00FC036B /* heartBead8.png */,
+				B4D7A5D21B77DB5C00FC036B /* heartBead9.png */,
+				B4D7A5D31B77DB5C00FC036B /* heartBead10.png */,
+				B4D7A5D41B77DB5C00FC036B /* heartBead11.png */,
+				B4D7A5D51B77DB5C00FC036B /* heartBead12.png */,
+				B4D7A5D61B77DB5C00FC036B /* heartBead13.png */,
+				B4D7A5D71B77DB5C00FC036B /* heartBead14.png */,
+				B4D7A5D81B77DB5C00FC036B /* heartBead15.png */,
+				B4D7A5D91B77DB5C00FC036B /* heartBead16.png */,
+				B4D7A5DA1B77DB5C00FC036B /* heartBead17.png */,
+				B4D7A5DB1B77DB5C00FC036B /* heartBead18.png */,
+				B4D7A5DC1B77DB5C00FC036B /* heartBead19.png */,
+				B4D7A5DD1B77DB5C00FC036B /* heartBead20.png */,
+				B4D7A5DE1B77DB5C00FC036B /* heartBead21.png */,
+				B4D7A5DF1B77DB5C00FC036B /* heartBead22.png */,
+				B4D7A5E01B77DB5C00FC036B /* heartBead23.png */,
+				B4D7A5E11B77DB5C00FC036B /* heartBead24.png */,
+				B4D7A5E21B77DB5C00FC036B /* heartBead25.png */,
+				B4D7A5E31B77DB5C00FC036B /* heartBead26.png */,
+				B4D7A5E41B77DB5C00FC036B /* heartBead27.png */,
+				B4D7A5B61B77ABA700FC036B /* button15Highlighted.png */,
+				B4D7A5B71B77ABA700FC036B /* button20Highlighted.png */,
+				B4D7A5B81B77ABA700FC036B /* button25Highlighted.png */,
+				B4D7A5B91B77ABA700FC036B /* button30Highlighted.png */,
+				B4D7A5BA1B77ABA700FC036B /* button35Highlighted.png */,
+				B4D7A5BB1B77ABA700FC036B /* button40Highlighted.png */,
+				B4D7A5BC1B77ABA700FC036B /* button60Highlighted.png */,
+				B4D7A5BD1B77ABA700FC036B /* button70Highlighted.png */,
+				B4D7A5BE1B77ABA700FC036B /* button80Highlighted.png */,
+				B4D7A5BF1B77ABA700FC036B /* button90Highlighted.png */,
+				B4D7A56D1B77A4D300FC036B /* 15.png */,
+				B4D7A56E1B77A4D300FC036B /* 20.png */,
+				B4D7A56F1B77A4D300FC036B /* 25.png */,
+				B4D7A5701B77A4D300FC036B /* 30.png */,
+				B4D7A5711B77A4D300FC036B /* 35.png */,
+				B4D7A5721B77A4D300FC036B /* 40.png */,
+				B4D7A5731B77A4D300FC036B /* 45.png */,
+				B4D7A5741B77A4D300FC036B /* 60.png */,
+				B4D7A5751B77A4D300FC036B /* 70.png */,
+				B4D7A5761B77A4D300FC036B /* 80.png */,
+				B4D7A5771B77A4D300FC036B /* 90.png */,
+				B4D7A5781B77A4D300FC036B /* bg.png */,
+				B4D7A5831B77A4D300FC036B /* Meditation Timer.png */,
+				B4D7A5841B77A4D300FC036B /* Oval 3.png */,
+				B4D7A5851B77A4D300FC036B /* oval.png */,
+				B4D7A5861B77A4D300FC036B /* PAUSE.png */,
+				B4D7A5871B77A4D300FC036B /* pauseButton.png */,
+				B4D7A5881B77A4D300FC036B /* start.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4D7A53B1B77A37900FC036B /* Meditation Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D7A5641B77A37900FC036B /* Build configuration list for PBXNativeTarget "Meditation Timer" */;
+			buildPhases = (
+				B4D7A5381B77A37900FC036B /* Sources */,
+				B4D7A5391B77A37900FC036B /* Frameworks */,
+				B4D7A53A1B77A37900FC036B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meditation Timer";
+			productName = "Meditation Timer";
+			productReference = B4D7A53C1B77A37900FC036B /* Meditation Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4D7A54F1B77A37900FC036B /* Meditation TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D7A5671B77A37900FC036B /* Build configuration list for PBXNativeTarget "Meditation TimerTests" */;
+			buildPhases = (
+				B4D7A54C1B77A37900FC036B /* Sources */,
+				B4D7A54D1B77A37900FC036B /* Frameworks */,
+				B4D7A54E1B77A37900FC036B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D7A5521B77A37900FC036B /* PBXTargetDependency */,
+			);
+			name = "Meditation TimerTests";
+			productName = "Meditation TimerTests";
+			productReference = B4D7A5501B77A37900FC036B /* Meditation TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4D7A55A1B77A37900FC036B /* Meditation TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D7A56A1B77A37900FC036B /* Build configuration list for PBXNativeTarget "Meditation TimerUITests" */;
+			buildPhases = (
+				B4D7A5571B77A37900FC036B /* Sources */,
+				B4D7A5581B77A37900FC036B /* Frameworks */,
+				B4D7A5591B77A37900FC036B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D7A55D1B77A37900FC036B /* PBXTargetDependency */,
+			);
+			name = "Meditation TimerUITests";
+			productName = "Meditation TimerUITests";
+			productReference = B4D7A55B1B77A37900FC036B /* Meditation TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4D7A5341B77A37900FC036B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stephen DeStefano";
+				TargetAttributes = {
+					B4D7A53B1B77A37900FC036B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B4D7A54F1B77A37900FC036B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B4D7A53B1B77A37900FC036B;
+					};
+					B4D7A55A1B77A37900FC036B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B4D7A53B1B77A37900FC036B;
+					};
+				};
+			};
+			buildConfigurationList = B4D7A5371B77A37900FC036B /* Build configuration list for PBXProject "Meditation Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4D7A5331B77A37900FC036B;
+			productRefGroup = B4D7A53D1B77A37900FC036B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4D7A53B1B77A37900FC036B /* Meditation Timer */,
+				B4D7A54F1B77A37900FC036B /* Meditation TimerTests */,
+				B4D7A55A1B77A37900FC036B /* Meditation TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4D7A53A1B77A37900FC036B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D7A5E61B77DB5C00FC036B /* heartBead2.png in Resources */,
+				B4D7A5F61B77DB5C00FC036B /* heartBead18.png in Resources */,
+				B4D7A5EE1B77DB5C00FC036B /* heartBead10.png in Resources */,
+				B4D7A60F1B77DB7600FC036B /* incenseStick8.png in Resources */,
+				B4D7A60B1B77DB7600FC036B /* incenseStick4.png in Resources */,
+				B4D7A5FF1B77DB5C00FC036B /* heartBead27.png in Resources */,
+				B4D7A60E1B77DB7600FC036B /* incenseStick7.png in Resources */,
+				B4D7A5931B77A4D300FC036B /* 90.png in Resources */,
+				B4D7A5ED1B77DB5C00FC036B /* heartBead9.png in Resources */,
+				B4D7A5EB1B77DB5C00FC036B /* heartBead7.png in Resources */,
+				B4D7A5EA1B77DB5C00FC036B /* heartBead6.png in Resources */,
+				B4D7A5921B77A4D300FC036B /* 80.png in Resources */,
+				B4D7A5A21B77A4D300FC036B /* PAUSE.png in Resources */,
+				B4D7A5FD1B77DB5C00FC036B /* heartBead25.png in Resources */,
+				B4D7A5F31B77DB5C00FC036B /* heartBead15.png in Resources */,
+				B4D7A5EF1B77DB5C00FC036B /* heartBead11.png in Resources */,
+				B4D7A5A01B77A4D300FC036B /* Oval 3.png in Resources */,
+				B4D7A58F1B77A4D300FC036B /* 45.png in Resources */,
+				B4D7A58A1B77A4D300FC036B /* 20.png in Resources */,
+				B4D7A58D1B77A4D300FC036B /* 35.png in Resources */,
+				B4D7A5F01B77DB5C00FC036B /* heartBead12.png in Resources */,
+				B4D7A59F1B77A4D300FC036B /* Meditation Timer.png in Resources */,
+				B4D7A5F91B77DB5C00FC036B /* heartBead21.png in Resources */,
+				B4D7A5941B77A4D300FC036B /* bg.png in Resources */,
+				B4D7A60A1B77DB7600FC036B /* incenseStick3.png in Resources */,
+				B4D7A5C71B77ABA700FC036B /* button70Highlighted.png in Resources */,
+				B4D7A5C11B77ABA700FC036B /* button20Highlighted.png in Resources */,
+				B4D7A5A41B77A4D300FC036B /* start.png in Resources */,
+				B4D7A54A1B77A37900FC036B /* LaunchScreen.storyboard in Resources */,
+				B4D7A5FC1B77DB5C00FC036B /* heartBead24.png in Resources */,
+				B4D7A5471B77A37900FC036B /* Assets.xcassets in Resources */,
+				B4D7A60D1B77DB7600FC036B /* incenseStick6.png in Resources */,
+				B4D7A5451B77A37900FC036B /* Main.storyboard in Resources */,
+				B4D7A5C21B77ABA700FC036B /* button25Highlighted.png in Resources */,
+				B4D7A5C41B77ABA700FC036B /* button35Highlighted.png in Resources */,
+				B4D7A5E91B77DB5C00FC036B /* heartBead5.png in Resources */,
+				B4D7A5F51B77DB5C00FC036B /* heartBead17.png in Resources */,
+				B4D7A5C81B77ABA700FC036B /* button80Highlighted.png in Resources */,
+				B4D7A5F81B77DB5C00FC036B /* heartBead20.png in Resources */,
+				B4D7A5E51B77DB5C00FC036B /* heartBead1.png in Resources */,
+				B4D7A58B1B77A4D300FC036B /* 25.png in Resources */,
+				B4D7A5C31B77ABA700FC036B /* button30Highlighted.png in Resources */,
+				B4D7A5891B77A4D300FC036B /* 15.png in Resources */,
+				B4D7A5FB1B77DB5C00FC036B /* heartBead23.png in Resources */,
+				B4D7A5C91B77ABA700FC036B /* button90Highlighted.png in Resources */,
+				B4D7A5F41B77DB5C00FC036B /* heartBead16.png in Resources */,
+				B4D7A5EC1B77DB5C00FC036B /* heartBead8.png in Resources */,
+				B4D7A5C01B77ABA700FC036B /* button15Highlighted.png in Resources */,
+				B4D7A60C1B77DB7600FC036B /* incenseStick5.png in Resources */,
+				B47DEADC1B79458100DDE58F /* gong.mp3 in Resources */,
+				B4D7A5911B77A4D300FC036B /* 70.png in Resources */,
+				B4D7A5F11B77DB5C00FC036B /* heartBead13.png in Resources */,
+				B4D7A6091B77DB7600FC036B /* incenseStick2.png in Resources */,
+				B4D7A5F21B77DB5C00FC036B /* heartBead14.png in Resources */,
+				B4D7A5F71B77DB5C00FC036B /* heartBead19.png in Resources */,
+				B4D7A5E71B77DB5C00FC036B /* heartBead3.png in Resources */,
+				B4D7A5FE1B77DB5C00FC036B /* heartBead26.png in Resources */,
+				B4D7A5E81B77DB5C00FC036B /* heartBead4.png in Resources */,
+				B4D7A5A11B77A4D300FC036B /* oval.png in Resources */,
+				B4D7A58C1B77A4D300FC036B /* 30.png in Resources */,
+				B4D7A5A31B77A4D300FC036B /* pauseButton.png in Resources */,
+				B4D7A5C51B77ABA700FC036B /* button40Highlighted.png in Resources */,
+				B4D7A5C61B77ABA700FC036B /* button60Highlighted.png in Resources */,
+				B4D7A5901B77A4D300FC036B /* 60.png in Resources */,
+				B4D7A5FA1B77DB5C00FC036B /* heartBead22.png in Resources */,
+				B4D7A6081B77DB7600FC036B /* incenseStick1.png in Resources */,
+				B4D7A58E1B77A4D300FC036B /* 40.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D7A54E1B77A37900FC036B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D7A5591B77A37900FC036B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4D7A5381B77A37900FC036B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D7A5421B77A37900FC036B /* ViewController.swift in Sources */,
+				B4D7A5401B77A37900FC036B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D7A54C1B77A37900FC036B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D7A5551B77A37900FC036B /* Meditation_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D7A5571B77A37900FC036B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D7A5601B77A37900FC036B /* Meditation_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4D7A5521B77A37900FC036B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4D7A53B1B77A37900FC036B /* Meditation Timer */;
+			targetProxy = B4D7A5511B77A37900FC036B /* PBXContainerItemProxy */;
+		};
+		B4D7A55D1B77A37900FC036B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4D7A53B1B77A37900FC036B /* Meditation Timer */;
+			targetProxy = B4D7A55C1B77A37900FC036B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4D7A5431B77A37900FC036B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4D7A5441B77A37900FC036B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4D7A5481B77A37900FC036B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4D7A5491B77A37900FC036B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4D7A5621B77A37900FC036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4D7A5631B77A37900FC036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4D7A5651B77A37900FC036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meditation Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NamasteApps.Meditation-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4D7A5661B77A37900FC036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meditation Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NamasteApps.Meditation-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4D7A5681B77A37900FC036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meditation TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NamasteApps.Meditation-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation Timer.app/Meditation Timer";
+			};
+			name = Debug;
+		};
+		B4D7A5691B77A37900FC036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meditation TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NamasteApps.Meditation-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation Timer.app/Meditation Timer";
+			};
+			name = Release;
+		};
+		B4D7A56B1B77A37900FC036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Meditation TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NamasteApps.Meditation-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Meditation Timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B4D7A56C1B77A37900FC036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Meditation TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NamasteApps.Meditation-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Meditation Timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4D7A5371B77A37900FC036B /* Build configuration list for PBXProject "Meditation Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D7A5621B77A37900FC036B /* Debug */,
+				B4D7A5631B77A37900FC036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D7A5641B77A37900FC036B /* Build configuration list for PBXNativeTarget "Meditation Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D7A5651B77A37900FC036B /* Debug */,
+				B4D7A5661B77A37900FC036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D7A5671B77A37900FC036B /* Build configuration list for PBXNativeTarget "Meditation TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D7A5681B77A37900FC036B /* Debug */,
+				B4D7A5691B77A37900FC036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D7A56A1B77A37900FC036B /* Build configuration list for PBXNativeTarget "Meditation TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D7A56B1B77A37900FC036B /* Debug */,
+				B4D7A56C1B77A37900FC036B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4D7A5341B77A37900FC036B /* Project object */;
+}
